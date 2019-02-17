@@ -8,6 +8,23 @@ What is node-dynamic-argon2d?
 -----------------------------
 A Node.js module of the Argon2d hashing parameters used in Dynamic (DYN).
 
+
+Installation Instructions
+-------------------------
+
+It is available to install via the Node.js Package Manager (NPM) by using the command:
+
+```$ npm install node-dynamic-argon2d```
+
+or by cloning from Github and installing locally using NPM:
+
+```$ git clone https://github.com/duality-solutions/node-dynamic-argon2d```
+
+```$ cd node-dynamic-argon2d```
+
+```$ npm install```
+
+
 Usage
 -----
 to create a raw hash from a string of data 
