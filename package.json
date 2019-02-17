@@ -1,6 +1,6 @@
 {
     "name": "node-dynamic-argon2d",
-    "version": "0.0.9",
+    "version": "1.0.0",
     "main": "multihashing",
     "author": {
         "name": "Wkibbler"
@@ -14,18 +14,6 @@
         "nan": "^2.6.2"
     },
     "keywords": [
-        "scrypt",
-        "scryptjane",
-        "script-n",
-        "x11",
-        "quark",
-        "keccak_hash",
-        "skein",
-        "bcrypt",
-        "keccak",
-        "blake",
-        "shavite",
-        "fugue",
-        "sha1"
+        "argon2d"
     ]
 }

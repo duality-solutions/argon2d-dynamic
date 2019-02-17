@@ -1,6 +1,15 @@
-# node-dynamic-argon2d
+# **node-dynamic-argon2d v1.0.0**
+
+![DYN logo](https://github.com/duality-solutions/Dynamic/blob/master/src/qt/res/icons/drk/about.png)
+
+**Copyright (c) 2016-2019 [Duality Blockchain Solutions](https://duality.solutions/)**
+
+What is node-dynamic-argon2d?
+-----------------------------
+A Node.js module of the Argon2d hashing parameters used in Dynamic (DYN).
+
 Usage
-------
+-----
 to create a raw hash from a string of data 
 ```js
 var argon2d = require('node-dynamic-argon2d');
