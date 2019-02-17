@@ -1,4 +1,4 @@
-# **node-dynamic-argon2d v1.0.0**
+# **node-dynamic-argon2d**
 
 ![DYN logo](https://github.com/duality-solutions/Dynamic/blob/master/src/qt/res/icons/drk/about.png)
 
