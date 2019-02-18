@@ -1,6 +1,6 @@
 {
     "name": "node-dynamic-argon2d",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "multihashing",
     "author": {
         "name": "Wkibbler"
@@ -12,6 +12,10 @@
     "dependencies": {
         "bindings": "^1.3.0",
         "nan": "^2.6.2"
+    },
+    "licenses" : {
+        "type": "MIT",
+        "url": "https://www.opensource.org/licenses/mit-license.php"
     },
     "keywords": [
         "argon2d"
