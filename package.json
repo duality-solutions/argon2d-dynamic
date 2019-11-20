@@ -1,13 +1,13 @@
 {
-    "name": "node-dynamic-argon2d",
-    "version": "1.0.3",
+    "name": "argon2d-dynamic",
+    "version": "1.0.0",
     "main": "multihashing",
     "author": {
         "name": "duality-solutions"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/duality-solutions/node-dynamic-argon2d.git"
+        "url": "https://github.com/duality-solutions/argon2d-dynamic.git"
     },
     "dependencies": {
         "bindings": "^1.3.0",

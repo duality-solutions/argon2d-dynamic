@@ -1,4 +1,4 @@
-# **node-dynamic-argon2d**
+# **Argon2d Dynamic**
 
 ![DYN logo](https://github.com/duality-solutions/Dynamic/blob/master/src/qt/res/icons/drk/about.png)
 
@@ -14,13 +14,13 @@ Installation Instructions
 
 It is available to install via the Node.js Package Manager (NPM) by using the command:
 
-```$ npm install node-dynamic-argon2d```
+```$ npm install argon2d-dynamic```
 
 or by cloning from Github and installing locally using NPM:
 
-```$ git clone https://github.com/duality-solutions/node-dynamic-argon2d```
+```$ git clone https://github.com/duality-solutions/argon2d-dynamic```
 
-```$ cd node-dynamic-argon2d```
+```$ cd argon2d-dynamic```
 
 ```$ npm install```
 
@@ -29,7 +29,7 @@ Usage
 -----
 to create a raw hash from a string of data 
 ```js
-var argon2d = require('node-dynamic-argon2d');
+var argon2d = require('argon2d-dynamic');
 var buf = Buffer.from("someString", 'utf8');
 var hash = argon2d.argon2d(buf);
 console.log(hash);
