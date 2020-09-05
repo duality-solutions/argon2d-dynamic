@@ -1,9 +1,9 @@
 {
     "targets": [
         {
-            "target_name": "multihashing",
+            "target_name": "argon2d-dynamic",
             "sources": [
-                "multihashing.cc",
+                "argon2d-dynamic.cc",
                 "argon2/argon2.c",
  				"argon2/best.c",
  				"argon2/blake2b.c",

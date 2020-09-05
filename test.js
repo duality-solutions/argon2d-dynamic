@@ -5,7 +5,7 @@
     node-gyp configure
     node-gyp build --debug
 */
-var mh = require('./build/Debug/multihashing.node');
+var mh = require('./build/Debug/argon2d-dynamic.node');
 var crypto = require('crypto');
 
 // this needs more work... I need a something to pass into these hashers and get back and assert..
