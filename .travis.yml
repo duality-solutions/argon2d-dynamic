@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - lts/dubnium
+os:
+  - linux
+dist: bionic
+before_install:
+  - curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh -o install_nvm.sh
+  - bash install_nvm.sh
+  - command -v nvm
+  - sudo apt-get update && sudo apt-get install
+  - nvm install lts/dubnium && nvm use lts/dubnium
+cache:
+  apt: true
+jobs:
+  include:
+      # Linux
+      - stage: build
+        name: 'VGP NodeJS Package'
+        script:
+          - npm install
